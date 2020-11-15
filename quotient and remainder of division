@@ -1,0 +1,9 @@
+function quotientAndRemainder(n, k){
+  let quotient = 0;
+  while (n >= k) {
+    n -= k;
+    quotient++;
+  }
+  let remainder = n;
+  return [quotient, remainder];
+}
