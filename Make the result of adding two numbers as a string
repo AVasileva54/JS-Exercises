@@ -1,0 +1,4 @@
+function arithmeticExpression(a, b){
+  let c = +a + +b;
+    return (String(a) + ' ' + '+' + ' ' + String(b) + ' ' + '=' + ' ' + String(c));
+    }
