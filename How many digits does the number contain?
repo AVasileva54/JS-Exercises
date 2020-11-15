@@ -1,0 +1,6 @@
+function numberOfDigits(n){
+let i = 0;
+    while (n > 1) {
+        n /= 10; i++;
+    } return i;
+}
