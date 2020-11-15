@@ -1,0 +1,8 @@
+function sum(n){
+let result = 1;
+let i = 1;
+    while (i < n) {
+    i++; result += i;
+};
+return result;
+}
