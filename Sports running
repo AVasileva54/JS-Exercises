@@ -1,0 +1,7 @@
+function running(n){
+let i = n;
+let d = 2;
+    do { d ++; i = i + (i * 0.1);
+    } while (d <= 10);
+    return d;
+}
