@@ -1,0 +1,8 @@
+function sumOfOdd(n){
+let result = 0;
+let i = 1;
+    while (i <= n) {
+     result += i; i = i + 2;
+    };
+return result;
+}
