@@ -1,0 +1,10 @@
+function frogPrincess(n){ 
+let i = n;
+let s = 0;
+let d = 0;
+    do {s = s + i; 
+        i = i + 3; 
+        d ++ 
+        } while (s <= 1000);
+          return d;
+ }
