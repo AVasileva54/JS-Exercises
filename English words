@@ -1,0 +1,11 @@
+function englishWords(n){
+let s = 0;
+    if (n === 0) return 0;
+    let d = 0;
+    let i = 5;
+       while (s <= n){
+       s = s + i;
+       i = i+2;
+       d++;
+      } return d;
+}
