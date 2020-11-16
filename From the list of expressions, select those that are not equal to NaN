@@ -1,0 +1,1 @@
+let arr = ['July' + 31, 'Three' + 'Two','to be'|| !'to be','NaN'];
