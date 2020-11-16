@@ -1,0 +1,4 @@
+function isArgNaN(value){
+  if (isNaN(value)) return NaN
+  return value;
+}
