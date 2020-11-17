@@ -1,0 +1,5 @@
+function changeMax(a, b){
+if (a > b) return -a;
+if (b > a) return -b;
+else return "The numbers are equal"
+}
