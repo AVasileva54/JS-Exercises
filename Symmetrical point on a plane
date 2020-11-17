@@ -1,0 +1,3 @@
+function oppositePoint(x, y){
+return "N" + "(" + (-x) + "," + (-y) + ")";
+}
