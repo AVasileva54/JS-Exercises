@@ -1,0 +1,4 @@
+function isSumEqualsNumber(a, b, c){
+let num = (a + b);
+return (+(num.toFixed(2)) === c);
+}
