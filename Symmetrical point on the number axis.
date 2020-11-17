@@ -1,0 +1,4 @@
+function oppositePoint(x){
+let a = - x;
+return "N" + "(" + a + ")";
+}
