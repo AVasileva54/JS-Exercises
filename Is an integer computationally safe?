@@ -1,0 +1,3 @@
+function safeNumber(x){
+return (Number.isSafeInteger(x))
+}
