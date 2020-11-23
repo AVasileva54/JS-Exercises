@@ -1,0 +1,6 @@
+function nearestCafe(x, n, m){
+let a = Math.abs(n-x),
+    b = Math.abs(m-x);
+    if (a >= b) return "Merci"
+    return "Nonstop";
+}
