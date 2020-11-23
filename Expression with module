@@ -1,0 +1,6 @@
+function expressionValue(a, b, c){
+let x = Math.abs(a-c),
+    y = Math.abs(b-c),
+    z = Math.abs(a+b+c);
+return +((x+y)/z).toFixed(2);
+}
