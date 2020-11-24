@@ -1,0 +1,5 @@
+function distanceToMoon(distance){
+let a =  Math.round(distance / 100000),
+    b = Math.round(distance / 100);
+return [a, b];
+}
