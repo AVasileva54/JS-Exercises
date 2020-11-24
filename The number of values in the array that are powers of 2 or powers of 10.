@@ -1,0 +1,10 @@
+function countPowersInArray(arr){
+let count = 0;
+  for (let i = 0; i <= arr.length; i++) {
+  let x = Math.log2(arr[i]);
+  let y = Math.log10(arr[i]);
+    if (x % 1 === 0 || y % 1 === 0) 
+    count++;
+  }
+return count;
+}
