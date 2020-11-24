@@ -1,0 +1,7 @@
+function roundElementsOfArray(arr){
+let a = [];
+   for (let i = 0; i < arr.length; i++){
+     a.push(Math.round(arr[i]))
+   }
+return a;
+}
