@@ -1,0 +1,7 @@
+function quadraticEquation(a, b, c){
+let D = Math.pow(b, 2) - 4 * a * c;
+let x1 = (- b + Math.sqrt(D))/(2 * a);
+let x2 = (- b - Math.sqrt(D))/(2 * a);
+  if (D < 0) return "There are no roots"
+  return [x1, x2];
+}
