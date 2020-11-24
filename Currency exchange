@@ -1,0 +1,3 @@
+function changeMoney(x, amount){
+return (Math.floor(amount/x));
+}
