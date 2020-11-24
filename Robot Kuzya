@@ -1,0 +1,3 @@
+function temperatureOutside(temperatureExact) {
+return "Outside the window is " + temperatureExact + " degrees Celsius. That is almost " + Math.ceil(temperatureExact);
+}
