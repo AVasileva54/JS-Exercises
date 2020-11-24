@@ -1,0 +1,8 @@
+function expression(a, b, c){
+let x = Math.pow(a,3),
+    y = Math.pow(b,2),
+    z = Math.pow(c,4),
+    w = Math.sqrt(a),
+    v = Math.sqrt(Math.abs(b-c));
+return +(w + (v / (x + y + z))).toFixed(2);
+}
