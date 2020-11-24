@@ -1,0 +1,4 @@
+function isPowerOfTwo(n){
+let x = Math.log2(n);
+return (x % 1 === 0);
+}
