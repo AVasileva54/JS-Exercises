@@ -1,0 +1,4 @@
+function isSquare(x){
+let b = Math.sqrt(x);
+return (b % 1 === 0)? x + ' ' + 'is square of' + ' ' + b: x + ' ' + 'is not a square'
+}
