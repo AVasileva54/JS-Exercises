@@ -1,0 +1,5 @@
+function bears(bearWeight, elephantWeight){
+let i = 1;
+while  ((i * bearWeight) < elephantWeight) i++;
+return i;
+}
