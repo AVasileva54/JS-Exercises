@@ -1,0 +1,3 @@
+function numberOfWallpapers(s, w){
+return Math.ceil(s / (10*w));
+}
