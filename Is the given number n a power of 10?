@@ -1,0 +1,4 @@
+function isPowerOfTen(n){
+let x = Math.log10(n);
+return (x % 1 === 0);
+}
