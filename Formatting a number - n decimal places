@@ -1,0 +1,3 @@
+function nDecimalDigits(num, n){
+return Math.trunc(num * 10 ** n) / 10 ** n;
+}
