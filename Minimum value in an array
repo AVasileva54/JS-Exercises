@@ -1,0 +1,7 @@
+function min(arr){
+  if (arr.length == 0) {
+  return [];
+  } else { 
+  return Math.min(...arr);
+  }
+}
