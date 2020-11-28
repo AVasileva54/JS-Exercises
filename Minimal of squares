@@ -1,0 +1,4 @@
+function minSquareSide(a, b, c, d){
+let min = Math.min(a, b, c, d);
+return Math.sqrt(min);
+}
