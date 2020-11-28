@@ -1,0 +1,3 @@
+function maxMin(arr){
+return !arr.length? [] : [Math.max(...arr), Math.min(...arr)]
+}
