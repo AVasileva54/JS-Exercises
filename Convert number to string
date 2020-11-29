@@ -1,0 +1,3 @@
+function numToStr(num){
+return num.toString();
+}
