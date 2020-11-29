@@ -1,0 +1,3 @@
+function isStringContainsNumber(str){
+if (str == Number.parseFloat(str)) return true
+re
