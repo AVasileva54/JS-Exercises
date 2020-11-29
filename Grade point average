@@ -1,0 +1,6 @@
+function average(a){
+let sum = 0;
+for (let i = 0; i < a.length; i++) 
+sum = sum + a[i];
+return (sum/a.length).toFixed(1)
+}
