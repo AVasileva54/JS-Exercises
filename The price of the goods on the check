@@ -1,0 +1,1 @@
+let priceOfItem = receipt => parseFloat(receipt)
