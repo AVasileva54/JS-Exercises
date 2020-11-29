@@ -1,0 +1,1 @@
+let numToHexadecimal = num => num.toString(16)
