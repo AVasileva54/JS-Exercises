@@ -1,0 +1,5 @@
+function isStringContainsNumber(str){
+return !isNaN(parseInt(str))
+}
+
+let isStringContainsNumber = str => !isNaN(parseInt(str))
