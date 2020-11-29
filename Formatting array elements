@@ -1,0 +1,6 @@
+function formatArray(arr){
+let a = [];
+  for (let i = 0; i < arr.length; i++)
+  a.push(+arr[i].toFixed(i))
+return a;
+}
