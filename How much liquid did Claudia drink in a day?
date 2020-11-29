@@ -1,0 +1,8 @@
+function hydrate(arr){
+let count = 0;
+  for(let i = 0; i <= arr.length; i++) {
+    if(parseInt(arr[i]))
+     count += parseInt(arr[i])
+  }
+return count * 200 + ' ml';
+}
