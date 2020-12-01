@@ -1,0 +1,7 @@
+function describesNumber(number){
+  if(number === 0) return 'Zero';
+  if(number < 0 && number % 2 !== 0) return "Odd negative number";
+  if(number > 0 && number % 2 !== 0) return "Odd positive number";
+  if(number < 0 && number % 2 === 0) return "Even negative number";
+  if(number > 0 && number % 2 === 0) return "Even positive number";
+}
