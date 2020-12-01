@@ -1,0 +1,7 @@
+function productOfArray(arr){
+let a = 1;
+for(let i = 0; i < arr.length; i++){
+a *= arr[i];
+}
+return a === 1 ? 0 : a;
+}
