@@ -1,0 +1,4 @@
+function countOfWordsOf5Letters(arr){
+let words5 = arr.filter(el => el.length === 5);
+return(words5.length);
+}
