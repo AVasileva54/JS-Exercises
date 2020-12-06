@@ -1,0 +1,6 @@
+function equalElementsInArray(arr){
+if(arr.length === 0) return []
+let a =  arr.filter((el, i) => i === arr.indexOf(el) && i !== arr.lastIndexOf(el)); 
+if(a.length === 0) return "All elements are different"
+return [a[0], a[0]];
+}
