@@ -1,0 +1,9 @@
+function minOdd(arr){
+  if(arr.length === 0 || arr.length === 1 && arr[0] % 2 === 0) return undefined;
+let min = 99;
+  for (let i = 0; i < arr.length; i++){
+    if (arr[i] < min && arr[i] % 2 !== 0)  
+    min = arr[i];
+  }
+return min === 0 ? undefined : min;
+}
