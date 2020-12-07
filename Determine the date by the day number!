@@ -1,0 +1,15 @@
+function getDay(day, isLeap){
+  if (day > 366 || day <=0 || day === 366 && isLeap === false) 
+    return 'wrong day';
+let days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  if (isLeap) days[1] = 29;
+  let s = 0;
+  let i = 0;
+  while (s < day) {
+    s = s + days[i];
+    i++;
+  }
+  let A = ['Zero, ','January, ','February, ','March, ','April, ','May, ','June, ','July, ','August, ','September, ','October, ','November, ','December, '];
+  let D = day - (s - days[i - 1])
+return (A[i] + D)
+}
