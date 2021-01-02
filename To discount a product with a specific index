@@ -1,0 +1,4 @@
+function makeDiscount(p, d, index){
+  return p.map((el, i) => (i === index) ? (el * (100 - d) / 100): el);
+}
+console.log(makeDiscount([100,200,300,400,500], 30, 4));
