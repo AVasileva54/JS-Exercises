@@ -1,0 +1,5 @@
+function separateEvenAndOdd(arr){
+let odd = arr.filter(el => el % 2 === 0);
+let even = arr.filter(el => el % 2 !== 0);
+return [odd, even];
+}
