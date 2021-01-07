@@ -1,0 +1,6 @@
+function splitString(str){
+let a = [];
+  for(let i = 0; i < str.length; i++)
+    a.push(str[i]);
+return a;
+}
