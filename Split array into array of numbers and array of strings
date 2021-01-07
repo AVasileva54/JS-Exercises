@@ -1,0 +1,5 @@
+function separateNumsAndStrings(arr){
+let nums = arr.filter(el => typeof el === 'number');
+let words = arr.filter(el => typeof el !== 'number');
+return [nums, words];
+}
