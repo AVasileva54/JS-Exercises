@@ -1,0 +1,5 @@
+function separatePosAndNeg(arr){
+let pos = arr.filter(el => el > 0);
+let neg = arr.filter(el => el < 0);
+return [pos, neg];
+}
