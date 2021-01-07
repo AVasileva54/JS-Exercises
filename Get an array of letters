@@ -1,0 +1,6 @@
+function arrayOfFirstLetters(names){
+let newArr = names.map(function(name){
+return name[0]
+});
+return newArr
+}
