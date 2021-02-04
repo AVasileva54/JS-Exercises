@@ -1,0 +1,9 @@
+function addValue(arr, value){
+let newArr = [];
+  if(typeof(value) == 'number'){
+    newArr = arr.push(value);
+  } else {
+newArr = arr.unshift(value)
+}
+return arr
+}
