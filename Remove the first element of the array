@@ -1,0 +1,4 @@
+function deleteFirstElement(arr){
+let del = arr.shift();
+return(arr); 
+}
