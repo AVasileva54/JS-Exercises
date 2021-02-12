@@ -1,0 +1,3 @@
+function includeGreaterThanMin(arr){
+return (arr.includes(Math.min(...arr) + 1))
+}
