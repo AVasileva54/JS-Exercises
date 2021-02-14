@@ -1,0 +1,4 @@
+function three(){
+let a = ['q', 'w', 'e', 'r'];
+return a.indexOf('r')
+}
