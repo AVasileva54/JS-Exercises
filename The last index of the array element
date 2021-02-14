@@ -1,0 +1,3 @@
+//Write a function lastIndexOfValue that takes a non-empty arr array and value as arguments, and returns the last index of the array element with value, or "Not found" if there is no such element.
+
+const lastIndexOfValue = (arr, value) => arr.lastIndexOf(value) === -1 ? 'Not found' : arr.lastIndexOf(value)
