@@ -1,0 +1,4 @@
+//Write a function indexOfValue that takes a non-empty arr array and value as arguments and returns the index of the array element with value, or undefined if there is no such element. 
+
+
+const indexOfValue = (arr, value) => (arr.indexOf(value) === -1)? undefined : (arr.indexOf(value))
