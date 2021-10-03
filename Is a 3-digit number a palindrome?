@@ -1,0 +1,14 @@
+I. function isPalindrome(num){
+if(Math.trunc(num / 100) === (num % 10)){
+return "palindrome";
+} else return "not a palindrome";
+}
+
+II. function isPalindrome(num){
+let arr = String(num);
+let a = arr[0];
+let b = arr[1];
+let c = arr[2];
+if (a===c) return "palindrome"
+return "not a palindrome"
+}
